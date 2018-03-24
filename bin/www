@@ -1,0 +1,4 @@
+const problems = require('../main');
+
+
+problems.main();
