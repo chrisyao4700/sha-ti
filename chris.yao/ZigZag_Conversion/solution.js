@@ -42,7 +42,6 @@ const convert = (s, numRows)  => {
     //console.log(rel);
     return rel.join('');
 
-}
-;
+};
 
 module.exports.convert = convert;
