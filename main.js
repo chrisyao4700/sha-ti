@@ -14,6 +14,10 @@ const hd = require('./chris.yao/Hamming_Distance/solution');
 const vp = require('./chris.yao/Valid_Palindrome/solution');
 const iota = require('./chris.yao/Intersection_of_Two_Arrays_II/solution');
 const vp2 = require('./chris.yao/Valid_Palindrome_II/solution');
+const dsg = require('./chris.yao/Design_Snake_Game/solution');
+const motsa = require('./chris.yao/Median_of_Two_Sorted_Arrays/solution');
+const cwmw = require('./chris.yao/Container_With_Most_Water/solution');
+const rss = require('./chris.yao/Reverse_String_II/solution');
 const main = () => {
     //etu.run();
     //ts.run();
@@ -30,7 +34,12 @@ const main = () => {
     //hd.run();
     // vp.run();
     // iota.run();
-    vp2.run();
+    // vp2.run();
+    // dsg.run();
+    motsa.run();
+    // cwmw.run();
+    //rss.run();
+
 
 };
 
