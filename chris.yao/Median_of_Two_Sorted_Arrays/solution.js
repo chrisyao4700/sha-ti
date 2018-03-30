@@ -1,7 +1,8 @@
 const run = () => {
 
     //console.log(findMedianSortedArrays([1, 3], [2]));
-    console.log(betterBinarySearchSol([1, 3], [2]));
+    // console.log(betterBinarySearchSol([1, 3], [2]));
+    console.log(11>>1)
 };
 
 
@@ -51,7 +52,7 @@ const betterBinarySearchSol = (nums1, nums2) => {
     let low = 0, high = n;
     while (low < high) {
         let mid = (low + high) >> 1;
-        if (mid < n && nums1[c - mid - 1] > nums2[mid]) {
+        if (mid < n && nums1[c - mid -1] > nums2[mid]) {
             low = mid + 1;
         } else if (mid - 1 >= 0 && nums1[c - mid] < nums2[mid - 1]) {
             high = mid - 1;
