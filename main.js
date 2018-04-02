@@ -18,6 +18,12 @@ const dsg = require('./chris.yao/Design_Snake_Game/solution');
 const motsa = require('./chris.yao/Median_of_Two_Sorted_Arrays/solution');
 const cwmw = require('./chris.yao/Container_With_Most_Water/solution');
 const rss = require('./chris.yao/Reverse_String_II/solution');
+const cas = require('./chris.yao/Count_and_Say/solution');
+const trw = require('./chris.yao/Trapping_Rain_Water/solution');
+const lswr = require('./chris.yao/Longest_Substring_Without_Repeating_Characters/solution');
+const ppig = require('./chris.yao/Poor_Pigs/solution');
+const sp = require('./chris.yao/Shortest_Palindrome/solution');
+const pap = require('./chris.yao/Palindrome_Pairs/solution');
 const main = () => {
     //etu.run();
     //ts.run();
@@ -36,10 +42,15 @@ const main = () => {
     // iota.run();
     // vp2.run();
     // dsg.run();
-    motsa.run();
+    //motsa.run();
     // cwmw.run();
     //rss.run();
-
+    // cas.run();
+    //trw.run();
+    //lswr.run();
+    //ppig.run();
+     sp.run();
+    // pap.run();
 
 };
 

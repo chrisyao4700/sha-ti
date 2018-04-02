@@ -28,8 +28,6 @@ const reconstructQueue = (people) => {
     });
     let rel = [];
 
-
-//Reconstruct queue by inserting people by its k value
     for(let i = 0; i < people.length; i++) {
         rel.splice(people[i][1], 0, people[i]);
     }

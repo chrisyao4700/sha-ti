@@ -51,6 +51,6 @@ const checkPossibleDo = (s) => {
     }
     //console.log(hash.length);
     return Object.keys(hash).length <= (s.length % 2 + 1);
-}
+};
 
 module.exports.run = run;
