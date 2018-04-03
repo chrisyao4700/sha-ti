@@ -24,6 +24,9 @@ const lswr = require('./chris.yao/Longest_Substring_Without_Repeating_Characters
 const ppig = require('./chris.yao/Poor_Pigs/solution');
 const sp = require('./chris.yao/Shortest_Palindrome/solution');
 const pap = require('./chris.yao/Palindrome_Pairs/solution');
+const ma = require('./chris.yao/Accounts_Merge/solution');
+const iv = require('./chris.yao/Valid_Parentheses/solution');
+const lcp = require('./chris.yao/Longest_Common_Prefix/solution');
 const main = () => {
     //etu.run();
     //ts.run();
@@ -49,8 +52,11 @@ const main = () => {
     //trw.run();
     //lswr.run();
     //ppig.run();
-     sp.run();
+     //sp.run();
     // pap.run();
+    // ma.run();
+    // iv.run();
+    lcp.run();
 
 };
 
